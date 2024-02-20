@@ -78,6 +78,14 @@ body {
     justify-content: center;
 }
 
+.button :hover { background-color: white;
+    color: black;
+    font-weight: bold;
+    transition: 0.4s;
+border-radius: 10px;
+box-shadow: 2px 2px 2px #2095f2;
+filter: blur(90%);}
+
 .button a input{
     background-color: black;
     width: 150px;
@@ -320,7 +328,8 @@ border-radius: 10px;
     height: 100%;
     font-size: 15px;
     text-decoration: none;
-    display: flex
+    display: flex;
+    border-top: solid 2px #2095f2;
 
 }
 
