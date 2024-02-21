@@ -5,6 +5,7 @@
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /*
 @font-face {
     font-family: 'Anton-Regular';
@@ -18,8 +19,8 @@ body {
 
 /* navbar, portada y título */
 .navbar {
-    position:fixed;
-    background-color:rgba(255, 255, 255, 0.984);
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.984);
     height: 50px;
     border-bottom: 1px solid #2095f2;
     font-size: 15px;
@@ -40,7 +41,7 @@ body {
 
 .ul-navbar img {
     width: 50px;
-    }
+}
 
 .ul-navbar a {
     color: black;
@@ -78,15 +79,17 @@ body {
     justify-content: center;
 }
 
-.button :hover { background-color: white;
+.button :hover {
+    background-color: white;
     color: black;
     font-weight: bold;
     transition: 0.4s;
-border-radius: 10px;
-box-shadow: 2px 2px 2px #2095f2;
-filter: blur(90%);}
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #2095f2;
+    filter: blur(90%);
+}
 
-.button a input{
+.button a input {
     background-color: black;
     width: 150px;
     height: 50px;
@@ -97,7 +100,7 @@ filter: blur(90%);}
     border: 3px solid #2095f2;
     border-radius: 10px;
     align-items: end;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .titulo {
@@ -167,8 +170,8 @@ filter: blur(90%);}
     place-items: center;
 }
 
-.email{
-    display:flex;
+.email {
+    display: flex;
     grid-area: a2;
     justify-content: center;
     width: 300px;
@@ -176,14 +179,14 @@ filter: blur(90%);}
     padding: 5px;
     color: black;
     gap: 10px;
-   
+
 }
 
 .testimonios {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: 'a1 a2 a3 a4';
-    width:fit-content;
+    width: fit-content;
     justify-items: center;
     padding: 10px;
     color: white;
@@ -195,19 +198,20 @@ filter: blur(90%);}
 
 .testimonios-title {
     grid-area: a1;
-   text-align: center;
+    text-align: center;
     justify-items: center;
     font-size: 40px;
     padding: 10px;
 
 
 }
+
 .t1 {
     grid-area: a2;
     align-items: center;
     padding: 10px;
     border: solid 1px #2095f2;
-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .t1 h4 {
@@ -228,9 +232,9 @@ border-radius: 10px;
     grid-area: a3;
     text-align: justify;
     align-items: center;
-padding: 10px;
-border: solid 1px #2095f2;
-border-radius: 10px;
+    padding: 10px;
+    border: solid 1px #2095f2;
+    border-radius: 10px;
 }
 
 .t2 h4 {
@@ -263,6 +267,7 @@ border-radius: 10px;
     align-items: center;
     padding-bottom: 10px;
 }
+
 .t3 p {
     font-size: 15px;
 
@@ -277,10 +282,12 @@ border-radius: 10px;
     color: white;
     height: 150px;
 }
-.ayuda h5{
+
+.ayuda h5 {
     font-size: 30px;
     font-weight: bold;
 }
+
 .ayuda-card h5 {
     text-align: center;
 }
@@ -295,7 +302,7 @@ border-radius: 10px;
     justify-content: center;
 }
 
-.ayuda-button a input{
+.ayuda-button a input {
     background-color: black;
     width: 150px;
     height: 50px;
@@ -305,7 +312,7 @@ border-radius: 10px;
     border: 3px solid #2095f2;
     border-radius: 10px;
     align-items: end;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .datos ul {
@@ -324,7 +331,7 @@ border-radius: 10px;
 
 /*footer*/
 .footer {
-    background-color:rgba(255, 255, 255, 0.984);
+    background-color: rgba(255, 255, 255, 0.984);
     height: 100%;
     font-size: 15px;
     text-decoration: none;
@@ -337,7 +344,7 @@ border-radius: 10px;
     list-style: none;
 }
 
-.logo-footer ul{
+.logo-footer ul {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -346,16 +353,16 @@ border-radius: 10px;
 
 .logo-footer img {
     width: 50px;
-    }
+}
 
-.images-footer{
+.images-footer {
     width: 60px;
     justify-content: center;
 }
 
 .images-footer ul {
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
 
 /*Planes*/
@@ -363,45 +370,133 @@ border-radius: 10px;
     color: white;
     display: grid;
     width: 100%;
-height: 900px;
-    grid-template-rows: repeat(3,2fr);
+    height: 900px;
+    grid-template-rows: repeat(3, 2fr);
     grid-template-areas: 'a1 a2'
-               'a3 a4'
-               'a5 a6';
-    
+        'a3 a4'
+        'a5 a6';
+
     padding: 40px;
-    border-bottom: solid  2px #2095f2;
-   
-    }
+    border-bottom: solid 2px #2095f2;
 
-    .planes h3 {
-        text-align: center;
-        font-size: 40px;
-        color: #2095f2;
-    }
+}
 
-    .planes p {
-        width: fit-content;
-        text-align: justify;
-        font-size: 18px;
-        padding: 40px;
-    }
+.planes h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #2095f2;
+}
 
-    .planes img {
-        width: 250px;
-               height: 250px;
-        align-items: center;
-        border: solid 5px #2095f2;
-        border-radius: 10px;
-    }
+.planes p {
+    width: fit-content;
+    text-align: justify;
+    font-size: 18px;
+    padding: 40px;
+}
 
-
-
-.p1 {grid-area: a1;}
-.p2 {grid-area: a3;}
-.p3 {grid-area: a5;}
-.img1 {grid-area: a2;}
-.img2 {grid-area: a4;}
-.img3 {grid-area: a6;}
+.planes img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    border: solid 5px #2095f2;
+    border-radius: 10px;
+}
 
 
+
+.p1 {
+    grid-area: a1;
+}
+
+.p2 {
+    grid-area: a3;
+}
+
+.p3 {
+    grid-area: a5;
+}
+
+.img1 {
+    grid-area: a2;
+}
+
+.img2 {
+    grid-area: a4;
+}
+
+.img3 {
+    grid-area: a6;
+}
+
+/*Testimonios*/
+.page-testimonios {
+    color: white;
+    display: grid;
+    width: 100%;
+    height: 900px;
+    grid-template-rows: repeat(3, 2fr);
+    grid-template-areas: 'a1 a2'
+        'a3 a4'
+        'a5 a6';
+
+    padding: 40px;
+    border-bottom: solid 2px #2095f2;
+
+}
+
+.page-testimonios h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #2095f2;
+}
+
+.page-testimonios h4 {
+    font-size: 30px;
+    text-align: center;
+    color: #2095f2;
+}
+
+
+.page-testimonios p {
+    width: fit-content;
+    text-align: justify;
+    font-size: 18px;
+    padding: 40px;
+    font-style: oblique;
+}
+
+.page-testimonios img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    border: solid 5px #2095f2;
+    border-radius: 10px;
+}
+
+
+
+.pt1 {
+    grid-area: a1;
+}
+
+.pt2 {
+    grid-area: a3;
+}
+
+.pt3 {
+    grid-area: a5;
+}
+
+.pt4 {
+    grid-area: a2;
+}
+
+.pt5 {
+    grid-area: a4;
+}
+
+.pt6 {
+    grid-area: a6;
+}
