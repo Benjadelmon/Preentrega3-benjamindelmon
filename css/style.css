@@ -579,7 +579,46 @@ body {
     font-size: 27px;
     padding: 10px;
 }
-#success_message{ display: none;}
+
+.form {
+    color: white;
+    padding: 20px;
+}
+
+.form-nombres, .form-email, .form-apellidos, .form-telefono {
+    input{height: 50px;
+        width: 300px; 
+    border: 2px solid #2095f2;
+border-radius: 10px;
+padding: 10px;}
+label { padding: 10px; font-size: 20px;}
+display: grid;
+    
+}
+
+.form-mensaje {
+    textarea{height: 100px;
+        width: 75%; 
+    border: 2px solid #2095f2;
+border-radius: 10px;
+padding: 10px;
+color: gray;}
+
+label { padding: 10px;font-size: 20px;}
+display: grid;
+}
+
+.mb-3 {
+    padding: 15px;
+}
+
+.contacto h3{
+    padding: 30px;
+    color: #2095f2;
+    justify-content: left;
+    font-size: 30px;
+    padding: 20px 30px 5px 30px;
+}
 
 /*mediaquerys index*/
 @media (max-width: 1024px) and (min-width: 769px) {
@@ -1423,5 +1462,45 @@ body {
         
             padding: 40px;
             border-bottom: solid 2px #2095f2;
+}
+
+.form {
+    color: white;
+    padding: 20px;
+}
+
+.form-nombres, .form-email, .form-apellidos, .form-telefono {
+    input{height: 50px;
+        width: 200px; 
+    border: 2px solid #2095f2;
+border-radius: 10px;
+padding: 10px;}
+label { padding: 10px; font-size: 20px;}
+display: grid;
+    
+}
+
+.form-mensaje {
+    textarea{height: 100px;
+        width: 200px; 
+    border: 2px solid #2095f2;
+border-radius: 10px;
+padding: 10px;
+color: gray;}
+
+label { padding: 10px;font-size: 20px;}
+display: grid;
+}
+
+.mb-3 {
+    padding: 15px;
+}
+
+.contacto h3{
+    padding: 30px;
+    color: #2095f2;
+    justify-content: left;
+    font-size: 30px;
+    padding: 20px 30px 5px 30px;
 }
 }
